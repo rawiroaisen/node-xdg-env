@@ -1,13 +1,12 @@
 {
 	"name": "xdg-env",
-	"version": "0.0.1",
+	"version": "0.0.3",
 	"description": "Provide the XDG env variables normalized",
-	"keywords": ["xdg", "env", "linux"],
+	"keywords": ["freedesktop", "xdg", "env", "linux"],
 	"main": "index.js",
-	"dependencies": [],
-	"homepage": "https://github.com/rawiroaisen/xdg-env",
-	"repository": "git@github.com:rawiroaisen/xdg-env.git",
+	"homepage": "https://github.com/rawiroaisen/node-xdg-env",
+	"repository": "git@github.com:rawiroaisen/node-xdg-env.git",
 	"issues": {
-		"url": "https://github.com/rawiroaisen/xdg-env/issues"
+		"url": "https://github.com/rawiroaisen/node-xdg-env/issues"
 	}
 }

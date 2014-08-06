@@ -25,7 +25,7 @@ console.log(env)
 	
 	CONFIG_HOME: "/home/user/.config",
 	
-	DATA_DIRS: [
+	DATA_DIRS: [ // first DATA_DIR is always DATA_HOME
 		"/home/user/.local/share",
 		"/usr/share/pantheon",
 		"/usr/share/gnome",
