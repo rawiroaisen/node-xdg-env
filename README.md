@@ -12,34 +12,6 @@ $* means process.env.*
 npm install xdg-env
 ```
 
-```js
-// String
-DATA_HOME = $XDG_DATA_HOME || $HOME/.local/share
-
-// String
-CONFIG_HOME = $XDG_CONFIG_HOME || $HOME/.config
-
-// Array
-// the first DATA_DIR should always be DATA_HOME
-DATA_DIRS = [DATA_HOME, $XDG_DATA_DIRS]
-
-// Array
-CONFIG_DIRS = [$XDG_CONFIG_DIRS]
-
-// String
-CACHE_HOME = $XDG_CACHE_HOME || $HOME/.cache
-
-// String
-// There's no default to this (see http://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html)
-RUNTIME_DIR = $XDG_RUNTIME_DIR
-
-// Array
-CURRENT_DESKTOP = [$XDG_CURRENT_DESKTOP]
-
-// Object
-// user dirs defined in $CONFIG_HOME/user-dirs.dirs
-USER_DIRS
-```
 <br><br>
 
 ## Example
