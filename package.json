@@ -1,0 +1,13 @@
+{
+	"name": "xdg-env",
+	"version": "0.0.1",
+	"description": "Provide the XDG env variables normalized",
+	"keywords": ["xdg", "env", "linux"],
+	"main": "index.js",
+	"dependencies": [],
+	"homepage": "https://github.com/rawiroaisen/xdg-env",
+	"repository": "git@github.com:rawiroaisen/xdg-env.git",
+	"issues": {
+		"url": "https://github.com/rawiroaisen/xdg-env/issues"
+	}
+}
