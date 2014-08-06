@@ -12,8 +12,6 @@ $* means process.env.*
 npm install xdg-env
 ```
 
-<br><br>
-
 ## Example
 ```js
 var env = require('xdg-env')
