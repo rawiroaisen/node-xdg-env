@@ -4,6 +4,7 @@ Provide an Object with the XDG_* env variables or their defaults (according to h
 <br><br>
 
 Arrays are the env strings (or defaults) splitted by ':'
+<br>
 $* means process.env.*
 
 ```js
@@ -28,7 +29,7 @@ CACHE_HOME = $XDG_CACHE_HOME || $HOME/.cache
 RUNTIME_DIR = $XDG_RUNTIME_DIR
 
 // Array
-CURRENT_DESKTOP = $XDG_CURRENT_DESKTOP
+CURRENT_DESKTOP = [$XDG_CURRENT_DESKTOP]
 
 // Object
 // user dirs defined in $CONFIG_HOME/user-dirs.dirs
@@ -65,7 +66,7 @@ console.log(env)
 	CACHE_HOME: "/home/user/.cache",
 	
 	CURRENT_DESKTOP: [
-		"Pantheon" // Could by GNOME, Unity, etc
+		"Pantheon" // Could by GNOME, Unity, etc and more than one name
 	],
 	
 	USER_DIRS: { // this is in spanish (as my Desktop)
