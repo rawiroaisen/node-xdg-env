@@ -1,6 +1,6 @@
 # Node XDG-ENV
 <br><br>
-Provide an Object with the XDG_* env variables or their defaults (according to http://http://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html)
+Provide an Object with the XDG_* env variables or their defaults (according to http://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html)
 <br><br>
 
 Arrays are the env strings (or defaults) splitted by ':'
@@ -25,7 +25,7 @@ CONFIG_DIRS = [$XDG_CONFIG_DIRS]
 CACHE_HOME = $XDG_CACHE_HOME || $HOME/.cache
 
 // String
-// There's no default to this (see http://http://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html)
+// There's no default to this (see http://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html)
 RUNTIME_DIR = $XDG_RUNTIME_DIR
 
 // Array
