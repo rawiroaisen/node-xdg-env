@@ -44,7 +44,7 @@ console.log(env)
 		"Pantheon" // Could by GNOME, KDE, Unity, etc. and more than one name
 	],
 	
-	USER_DIRS: { // this is in spanish (as my Desktop)
+	USER_DIRS: { // dirs defined in $CONFIG_HOME/user-dirs.dirs
 		DOWNLOAD: "/home/user/Descargas",
 		TEMPLATES: "/home/user/Plantillas",
 		PUBLICSHARE: "/home/user/Público",
