@@ -7,6 +7,11 @@ Arrays are the env strings (or defaults) splitted by ':'
 <br>
 $* means process.env.*
 
+## Install
+```
+npm install xdg-env
+```
+
 ```js
 // String
 DATA_HOME = $XDG_DATA_HOME || $HOME/.local/share
