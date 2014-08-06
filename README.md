@@ -66,7 +66,7 @@ console.log(env)
 	CACHE_HOME: "/home/user/.cache",
 	
 	CURRENT_DESKTOP: [
-		"Pantheon" // Could by GNOME, Unity, etc and more than one name
+		"Pantheon" // Could by GNOME, KDE, Unity, etc. and more than one name
 	],
 	
 	USER_DIRS: { // this is in spanish (as my Desktop)
